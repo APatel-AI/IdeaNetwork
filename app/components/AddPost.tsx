@@ -26,7 +26,7 @@ export default function CreatePost() {
       },
       onSuccess: (data) => {
         queryClient.invalidateQueries(["posts"]);
-        toast.success("Post has been made 🔥", { id: toastPostID });
+        toast.success("Idea has been shared 💡", { id: toastPostID });
         setTitle("");
         setIsDisabled(false);
       },
