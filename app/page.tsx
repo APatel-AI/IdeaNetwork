@@ -28,7 +28,7 @@ export default function Home() {
           name={post.user.name}
           avatar={post.user.image}
           postTitle={post.title}
-          id={post.id}
+          id ={post.id}
         />
       ))}
     </main>
